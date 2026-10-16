@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio | Hearty Lyn De Torres 💖</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #ffe6f2;
+            font-family: 'Arial', sans-serif;
+            color: #660033;
+            line-height: 1.6;
+        }
+        /* Navigation Bar */
+        nav {
+            background: #cc0066;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            margin: 0 15px;
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: #ff99cc;
+            color: #660033;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #ff66b3, #ff99cc);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(204, 0, 102, 0.2);
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(204, 0, 102, 0.1);
+        }
+        h2 {
+            color: #cc0066;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ff99cc;
+            padding-bottom: 8px;
+        }
+        .hobby-item {
+            font-size: 18px;
+            padding: 8px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #cc0066;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#profile">My Profile</a>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+    </nav>
+
+    <div class="container">
+        <!-- Profile Section -->
+        <header id="profile">
+            <h1>Hearty Lyn De Torres 💖</h1>
+            <p class="tagline">
+                Grade 12 ABM Student | Dreamer ✨
+            </p>
+        </header>
+
+        <!-- About Me Section -->
+        <div class="card" id="about">
+            <h2>🌸 About Me</h2>
+            <p>
+                Hi there! I'm Hearty Lyn De Torres, a proud Grade 12 ABM student. I believe in enjoying life while chasing my dreams. Simple things make me happy. Life is beautiful when you know how to appreciate it! ✨
+            </p>
+        </div>
+
+        <!-- Hobbies Section -->
+        <div class="card" id="hobbies">
+            <h2>✨ My Hobbies</h2>
+            <div class="hobby-item">
+                👻 Watching horror movies
+            </div>
+            <div class="hobby-item">
+                🍽️ Eating delicious food
+            </div>
+            <div class="hobby-item">
+                😴 I love sleeping
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                Thank you for visiting my portfolio! 💕
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
